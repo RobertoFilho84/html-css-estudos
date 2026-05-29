@@ -1,0 +1,98 @@
+header {
+    color: white;
+    background-color: rgb(2, 65, 2);
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1px;
+    }
+
+    header > nav {
+        text-align: left;
+    }
+
+    header > nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+
+     @font-face {
+        font-family: 'droidcustom';
+        src: url('fonts/IDroid.otf') format('opentype');
+    }
+
+    .fonte {
+        font-family: 'droidcustom';
+    }
+
+    main {
+        max-width: 800px;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+
+    body {
+        background-color: rgba(78, 235, 78, 0.705);
+        margin: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style: none;
+        columns: 2;
+    }
+
+    ul li::before {
+        content: "✔";
+        color: green;
+    }
+
+    .video {
+        background-color: rgb(2, 65, 2);
+        padding: 20px;margin-bottom: 20px;
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    .verde {
+        background-color: rgb(2, 65, 2);
+        color: white;
+        padding: 10px;
+        margin: -15px -15px 10px -15px;
+    }
+
+    .claro {
+        background-color: rgba(78, 235, 78, 0.986);
+        margin-top: 0;
+    }
+    .claro p {
+        margin: 0;
+    }
+
+    footer {
+    color: white;
+    background-color: rgb(2, 65, 2);
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
