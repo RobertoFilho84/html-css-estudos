@@ -1,1 +1,7 @@
 @charset "UTF-8";
+
+body {
+    background: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
